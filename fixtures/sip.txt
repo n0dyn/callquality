@@ -1,0 +1,9 @@
+# Sample lab call. No capture from a live network.
+10:00:00.000 Caller -> PBX INVITE sip:alice@pbx.lab
+10:00:00.020 PBX -> Caller 100 Trying
+10:00:00.400 PBX -> Caller 180 Ringing
+10:00:01.200 Callee -> PBX 200 OK
+10:00:01.210 PBX -> Caller 200 OK
+10:00:01.230 Caller -> PBX ACK
+10:00:15.000 Caller -> PBX BYE
+10:00:15.040 PBX -> Caller 200 OK
